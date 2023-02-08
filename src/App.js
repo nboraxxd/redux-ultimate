@@ -1,15 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Home from './components/Home'
 
-function App() {
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello world with React and Hoi Dan IT!</h1>
-      </header>
+    <div className="app">
+      <Home></Home>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
