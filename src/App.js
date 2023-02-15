@@ -1,15 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import FormAddNew from './components/FormAddNew'
+import Header from './components/Header'
+import TableUser from './components/TableUser'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello world with React and Hoi Dan IT!</h1>
-      </header>
+    <div className="app">
+      <Header />
+      <FormAddNew />
+      <TableUser />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
